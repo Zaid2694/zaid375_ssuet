@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+
+  <body>
+
+    <header>
+      <div class="container">
+        <nav>
+          <h2>My Portfolio</h2>
+          <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+  
+    <section class="hero" id="home">
+      <img src="image/za1.jpg"alt="Profile Picture"width="200" height="300" />
+      <h1>Hi, I' Muhammad Zaid</h1>
+      <p>Frontend Developer in Progress!</p>
+      <button onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'});">View My Work</button>
+    </section>
+  
+    <section class="about" id="about">
+      <div class="container about-content">
+          <img src="image/za1.jpg" alt="About Me Image" width="100"height="200">
+          <div>
+          <h2>About Me</h2>
+          <p>Hello! I'm Muhammmad Zaid, an aspiring Frontend Developer passionate about building responsive and interactive web experiences. This is my portfolio where I showcase my work and skills.</p>
+        </div>
+      </div>
+    </section>
+  
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div>
+          <i class="fab fa-html5" title="HTML5"></i>
+          <i class="fab fa-css3-alt" title="CSS3"></i>
+          <i class="fab fa-js-square" title="JavaScript"></i>
+          <i class="fab fa-git-alt" title="Git"></i>
+          <i class="fab fa-github" title="GitHub"></i>
+        </div>
+      </div>
+    </section>
+  
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        
+        <div class="project">
+          <img src="image/h1.png"alt="Project Image" width="300"height="400" >
+          <h3>Project One</h3>
+          <p>Showcase your skills, projects, and achievements with a sleek and professional personal portfolio website. Perfect for Dana to highlight expertise, experience, and creativity in a visually appealing and user-friendly designe.</p>
+          <a href="https://github.com/Zaid2694/zaid375_ssuet" target="_blank">GitHub Repo</a>
+  
+       
+    </section>
+  
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  
+    <footer>
+      <p>&copy; 2025 Muhammmad Zaid All rights reserved.</p>
+      <div>
+        <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
+  
